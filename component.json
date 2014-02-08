@@ -1,0 +1,26 @@
+{
+  "name": "noflo-cad",
+  "description": "CAD components for NoFlo",
+  "author": "Jon Nordby <jononor@gmail.com>",
+  "repo": "jonnor/noflo-cad",
+  "version": "0.0.1",
+  "keywords": [
+    "CAD", "CSG", "CNC", "solid modelling", "3d printing"
+  ],
+  "dependencies": {
+    "noflo/noflo": "*"
+  },
+  "scripts": [
+    "components/Square.coffee",
+    "index.js"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "icon": "comments",
+    "components": {
+      "Square": "components/Square.coffee"
+    }
+  }
+}

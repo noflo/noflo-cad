@@ -1,0 +1,31 @@
+{
+  "name": "noflo-cad",
+  "description": "NoFlo components for CAD",
+  "version": "0.0.1",
+  "author": "Jon Nordby <jononor@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonnor/noflo-cad.git"
+  },
+  "dependencies": {
+    "noflo": "~0.4.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.6.6",
+    "grunt-coffeelint": "~0.0.6",
+    "grunt-component-build": "~0.2.7",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-combine": "~0.8.3",
+    "grunt-component": "~0.1.2",
+    "component-json": "~0.1.4",
+    "noflo-core": "~0.1.2"
+  },
+  "noflo": {
+    "icon": "comments",
+    "components": {
+      "Square": "./components/Square.coffee"
+    }
+  }
+}
