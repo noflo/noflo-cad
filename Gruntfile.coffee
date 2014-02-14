@@ -20,7 +20,7 @@ module.exports = ->
         options:
           action: 'install'
     component_build:
-      'noflo-websocket':
+      'noflo-cad':
         output: './browser/'
         config: './component.json'
         scripts: true
@@ -35,8 +35,8 @@ module.exports = ->
     # https://github.com/anthonyshort/component-coffee/issues/3
     combine:
       browser:
-        input: 'browser/noflo-websocket.js'
-        output: 'browser/noflo-websocket.js'
+        input: 'browser/noflo-cad.js'
+        output: 'browser/noflo-cad.js'
         tokens: [
           token: '.coffee'
           string: '.js'
@@ -48,7 +48,7 @@ module.exports = ->
         report: 'min'
       noflo:
         files:
-          './browser/noflo-websocket.min.js': ['./browser/noflo-websocket.js']
+          './browser/noflo-cad.min.js': ['./browser/noflo-cad.js']
 
     # Automated recompilation and testing when developing
     watch:

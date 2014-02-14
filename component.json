@@ -9,10 +9,10 @@
   ],
   "dependencies": {
     "noflo/noflo": "*",
-    "jonnor/OpenJSCAD.org": "*"
+    "jonnor/OpenJSCADorg": "*"
   },
   "scripts": [
-    "components/Square.coffee",
+    "components/Cube.coffee",
     "index.js"
   ],
   "json": [
@@ -21,7 +21,7 @@
   "noflo": {
     "icon": "comments",
     "components": {
-      "Square": "components/Square.coffee"
+      "Cube": "components/Cube.coffee"
     }
   }
 }
