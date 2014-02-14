@@ -8,7 +8,8 @@
     "CAD", "CSG", "CNC", "solid modelling", "3d printing"
   ],
   "dependencies": {
-    "noflo/noflo": "*"
+    "noflo/noflo": "*",
+    "jonnor/OpenJSCAD.org": "*"
   },
   "scripts": [
     "components/Square.coffee",
