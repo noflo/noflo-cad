@@ -1,7 +1,7 @@
 noflo = require 'noflo'
 csg = require 'OpenJSCADorg/csg.js'
 
-class Union extends noflo.Component
+class Intersect extends noflo.Component
   constructor: ->
     @modelA = null
     @modelB = null
@@ -20,7 +20,7 @@ class Union extends noflo.Component
 
   compute: ->
     if @modelA and @modelB
-      o = @modelA.union @modelB
+      o = @modelA.intersect @modelB
       @outPorts.out.send o
 
-exports.getComponent = -> new Union
+exports.getComponent = -> new Intersect

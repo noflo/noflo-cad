@@ -16,6 +16,7 @@
     "components/Translate.coffee",
     "components/Union.coffee",
     "components/ToSTL.coffee",
+    "components/ToDXF.coffee",
     "index.js"
   ],
   "json": [
@@ -25,9 +26,13 @@
     "icon": "comments",
     "components": {
       "Cube": "components/Cube.coffee",
+      "Rectangle": "components/Rectangle.coffee",
       "Translate": "components/Translate.coffee",
+      "Subtract": "components/Subtract.coffee",
+      "Intersect": "components/Intersect.coffee",
       "Union": "components/Union.coffee",
-      "ToSTL": "components/ToSTL.coffee"
+      "ToSTL": "components/ToSTL.coffee",
+      "ToDXF": "components/ToDXF.coffee"
     }
   }
 }

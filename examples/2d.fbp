@@ -1,0 +1,4 @@
+'40' -> WIDTH rect(cad/Rectangle)
+kick(core/Kick) OUT -> HEIGHT rect
+'10' -> DATA kick, 'true' -> IN kick
+rect OUT -> MODEL stl(cad/ToDXF) OUT -> IN out(core/Output)

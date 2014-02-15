@@ -27,8 +27,12 @@
     "icon": "comments",
     "components": {
       "Cube": "components/Cube.coffee",
+      "Rectangle": "components/Rectangle.coffee",
+      "Subtract": "components/Subtract.coffee",
+      "Intersect": "components/Intersect.coffee",
       "Translate": "components/Translate.coffee",
       "Union": "components/Union.coffee",
+      "ToDXF": "components/ToDXF.coffee",
       "ToSTL": "components/ToSTL.coffee"
     }
   }
