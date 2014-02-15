@@ -8,7 +8,8 @@
     "url": "git://github.com/jonnor/noflo-cad.git"
   },
   "dependencies": {
-    "noflo": "~0.4.0"
+    "noflo": "~0.4.4",
+    "openJSCADorg": "~0.0.1"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -25,7 +26,9 @@
   "noflo": {
     "icon": "comments",
     "components": {
-      "Cube": "components/Cube.coffee"
+      "Cube": "components/Cube.coffee",
+      "Translate": "components/Translate.coffee",
+      "ToSTL": "components/ToSTL.coffee"
     }
   }
 }

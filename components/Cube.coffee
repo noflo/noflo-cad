@@ -1,5 +1,4 @@
 noflo = require 'noflo'
-#openjscad = require 'openjscad'
 csg = require 'OpenJSCADorg/csg.js'
 
 class Cube extends noflo.Component
