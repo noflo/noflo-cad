@@ -1,0 +1,5 @@
+kick(core/Kick) OUT -> RADIUS cube(cad/Cube)
+'10' -> DATA kick, 'true' -> IN kick
+cube OUT -> MODEL translate(cad/Translate)
+'5' -> X translate
+translate OUT -> MODEL stl(cad/ToSTL) OUT -> IN out(core/Output)

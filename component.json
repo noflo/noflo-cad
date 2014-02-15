@@ -13,6 +13,8 @@
   },
   "scripts": [
     "components/Cube.coffee",
+    "components/Translate.coffee",
+    "components/ToSTL.coffee",
     "index.js"
   ],
   "json": [
@@ -21,7 +23,9 @@
   "noflo": {
     "icon": "comments",
     "components": {
-      "Cube": "components/Cube.coffee"
+      "Cube": "components/Cube.coffee",
+      "Translate": "components/Translate.coffee",
+      "ToSTL": "components/ToSTL.coffee"
     }
   }
 }
