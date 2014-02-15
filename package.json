@@ -28,6 +28,7 @@
     "components": {
       "Cube": "components/Cube.coffee",
       "Translate": "components/Translate.coffee",
+      "Union": "components/Union.coffee",
       "ToSTL": "components/ToSTL.coffee"
     }
   }

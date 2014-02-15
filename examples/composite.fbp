@@ -1,0 +1,5 @@
+'4' -> RADIUS cubeA(cad/Cube)
+kickB(core/Kick) OUT -> RADIUS cubeB(cad/Cube), '10' -> DATA kickB, 'true' -> IN kickB
+cubeB OUT -> MODEL translateB(cad/Translate), '15' -> X translateB, '15' -> Y translateB
+cubeA OUT -> A combined(cad/Union), translateB OUT -> B combined
+combined OUT -> MODEL stl(cad/ToSTL) OUT -> IN out(core/Output)
