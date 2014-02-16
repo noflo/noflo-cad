@@ -13,7 +13,12 @@
   },
   "scripts": [
     "components/Cube.coffee",
+    "components/RoundedRectangle.coffee",
+    "components/Rectangle.coffee",
+    "components/LinearExtrude.coffee",
     "components/Translate.coffee",
+    "components/Subtract.coffee",
+    "components/Intersect.coffee",
     "components/Union.coffee",
     "components/ToSTL.coffee",
     "components/ToDXF.coffee",
@@ -27,6 +32,8 @@
     "components": {
       "Cube": "components/Cube.coffee",
       "Rectangle": "components/Rectangle.coffee",
+      "RoundedRectangle": "components/RoundedRectangle.coffee",
+      "LinearExtrude": "components/LinearExtrude.coffee",
       "Translate": "components/Translate.coffee",
       "Subtract": "components/Subtract.coffee",
       "Intersect": "components/Intersect.coffee",

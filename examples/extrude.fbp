@@ -1,0 +1,31 @@
+# Model
+middleLayer(cad/Subtract) OUT -> MODEL middle(cad/LinearExtrude)
+exterior(cad/RoundedRectangle) OUT -> A middleLayer
+hole(cad/Rectangle) OUT -> B middleLayer
+
+lidLayer(cad/RoundedRectangle) OUT -> MODEL lid(cad/LinearExtrude)
+
+#middle OUT -> MODEL stl(cad/ToSTL) OUT -> IN out(core/Output)
+#lid OUT -> MODEL stl(cad/ToSTL) OUT -> IN out(core/Output)
+#middle OUT -> IN d(core/Drop)
+
+combined(cad/Union) OUT -> MODEL stl(cad/ToSTL) OUT -> IN out(core/Output)
+middle OUT -> A combined
+lid OUT -> MODEL offsetLid(cad/Translate) OUT -> B combined
+'25' -> Z offsetLid, '-5' -> Y offsetLid
+
+# Parameters
+'60' -> DATA kick(core/Kick) OUT -> WIDTH exterior
+'60' -> HEIGHT exterior
+'5' -> ROUNDRADIUS exterior
+'50' -> WIDTH hole
+'50' -> HEIGHT hole
+'10' -> HEIGHT middle
+
+'60' -> HEIGHT lidLayer
+'60' -> WIDTH lidLayer
+'5' -> ROUNDRADIUS lidLayer
+'2' -> HEIGHT lid
+
+# Run
+'true' -> IN kick
