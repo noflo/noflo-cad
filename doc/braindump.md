@@ -34,6 +34,11 @@ For CNC milling, the ShopBot file format is supposedly open:
 * http://www.opensbp.com/
 * https://github.com/bdiesel/OpenSBP
 
+Desktop stylee apps
+* http://openscam.com/
+* http://www.makercam.com/ (Flash based)
+* https://github.com/Heeks/heekscnc
+
 There are tons of gcode generators around, for instance based on Python
 * http://sourceforge.net/apps/mediawiki/pycam/index.php?title=Main_Page
 * http://sourceforge.net/projects/pycam/
