@@ -22,6 +22,7 @@
     "components/Union.coffee",
     "components/ToSTL.coffee",
     "components/ToDXF.coffee",
+    "components/Viewer.coffee",
     "index.js"
   ],
   "json": [
@@ -39,7 +40,8 @@
       "Intersect": "components/Intersect.coffee",
       "Union": "components/Union.coffee",
       "ToSTL": "components/ToSTL.coffee",
-      "ToDXF": "components/ToDXF.coffee"
+      "ToDXF": "components/ToDXF.coffee",
+      "Viewer": "components/Viewer.coffee"
     }
   }
 }
