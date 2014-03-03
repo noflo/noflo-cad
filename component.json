@@ -22,6 +22,7 @@
     "components/Union.coffee",
     "components/ToSTL.coffee",
     "components/ToDXF.coffee",
+    "components/ToOutlinePath.coffee",
     "components/Viewer.coffee",
     "index.js"
   ],
@@ -41,6 +42,7 @@
       "Union": "components/Union.coffee",
       "ToSTL": "components/ToSTL.coffee",
       "ToDXF": "components/ToDXF.coffee",
+      "ToOutlinePaths": "components/ToOutlinePaths.coffee",
       "Viewer": "components/Viewer.coffee"
     }
   }

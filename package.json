@@ -35,7 +35,8 @@
       "Translate": "components/Translate.coffee",
       "Union": "components/Union.coffee",
       "ToDXF": "components/ToDXF.coffee",
-      "ToSTL": "components/ToSTL.coffee"
+      "ToSTL": "components/ToSTL.coffee",
+      "ToOutlinePaths": "components/ToOutlinePaths.coffee"
     }
   }
 }
