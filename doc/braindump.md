@@ -93,3 +93,23 @@ Connecting/related SW
 * Better, possibly custom, on-graph-canvas widgets for manipulating IIPs
 * Directly manipulate the combined primitives on-model-preview
 * A way to preview CNC toolpaths in browser
+
+
+Holistically Integrated CAD/CAM
+---------------------------------
+Currently the 3d printing, CNC milling and laser cutting workflows are
+awfully segmented, into different tools for the various steps, with poor integration.
+
+Ideally, we'd want to:
+* View 3d model render, generated toolpaths, and live production next to eachother.
+* Have the views be mapped into the same 
+* Automatically verify the produced version with respect to the 3d model/toolpath
+Check that the model has not moved, that bridges were established correctly, that supports
+keep overhangs from drooping, that the model is not warping
+* Feed results back to tweak toolpath generation
+* Perhaps even feed results back to modify the model (evolutionary generative modelling)
+* Capture all print settings & environment data and correlate the data with structural or subjective tests
+
+
+ 
+
