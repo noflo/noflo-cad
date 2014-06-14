@@ -2,6 +2,9 @@ noflo-cad allows you to do parametric 3d solid modelling using NoFlo.
 
 Similar to Grasshopper for RhinoCAD.
 
+See also [noflo-3dprint](http://github.com/jonnor/noflo-3dprint) for
+controlling 3d printing process.
+
 Status
 =======
 Prototype
