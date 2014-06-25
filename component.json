@@ -13,6 +13,7 @@
   },
   "scripts": [
     "components/Cube.coffee",
+    "components/Circle.coffee",
     "components/RoundedRectangle.coffee",
     "components/Rectangle.coffee",
     "components/LinearExtrude.coffee",
@@ -33,6 +34,7 @@
     "icon": "comments",
     "components": {
       "Cube": "components/Cube.coffee",
+      "Circle": "components/Circle.coffee",
       "Rectangle": "components/Rectangle.coffee",
       "RoundedRectangle": "components/RoundedRectangle.coffee",
       "LinearExtrude": "components/LinearExtrude.coffee",

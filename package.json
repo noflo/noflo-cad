@@ -27,6 +27,7 @@
     "icon": "comments",
     "components": {
       "Cube": "components/Cube.coffee",
+      "Circle": "components/Circle.coffee",
       "RoundedRectangle": "components/RoundedRectangle.coffee",
       "Rectangle": "components/Rectangle.coffee",
       "LinearExtrude": "components/LinearExtrude.coffee",
