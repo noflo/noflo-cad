@@ -79,6 +79,23 @@ keep overhangs from drooping, that the model is not warping
 [cura-server](http://github.com/jonnor/CuraServer)
 
 
+NoFlo & Grasshopper integration
+-----------------------------------
+
+Some interesting usecases:
+
+* Having a GH node which represents a remote Flowhub service/runtime
+* Having nodes developed in Flowhub which can execute in GH (but also outside)
+* Representing a GH program as service and component that can be remotely accessed in Flowhub
+
+[ghpython](https://github.com/mcneel/ghpython) allows to build Grasshopper components in Python,
+and to access Grasshopper components from Python.
+
+There is an (outdated) tutorial on building GrassHopper components
+[here](http://www.grasshopper3d.com/forum/topics/guide-to-creating-custom)
+
+
+
 Related projects
 -----------------
 * https://github.com/pboyer/flood
