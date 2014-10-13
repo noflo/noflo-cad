@@ -94,6 +94,7 @@ and to access Grasshopper components from Python.
 There is an (outdated) tutorial on building GrassHopper components
 [here](http://www.grasshopper3d.com/forum/topics/guide-to-creating-custom)
 
+Some recent news about ghpython, http://stevebaer.wordpress.com/2013/12/11/ghpython-node-in-code/
 
 
 Related projects
