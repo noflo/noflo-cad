@@ -12,8 +12,9 @@ Libraries
 * https://github.com/Spiritdude/OpenJSCAD.org
 * https://github.com/kaosat-dev/CoffeeSCad
 * https://github.com/joostn/OpenJsCad/tree/gh-pages
+* https://github.com/cvdlab/plasm.js
 
-None of these however are nice/easy to reuse.
+None of these however are nice/easy to reuse (in 2014), mostly cause packaging?s
 TODO: talk to the developers, make into one or a set of nice libraries,
 with node/npm and component.io integration.
 
