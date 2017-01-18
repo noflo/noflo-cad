@@ -44,5 +44,8 @@
       "ToSTL": "components/ToSTL.coffee",
       "ToOutlinePaths": "components/ToOutlinePaths.coffee"
     }
+  },
+  "scripts": {
+    "test": "grunt test"
   }
 }
