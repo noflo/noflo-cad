@@ -3,12 +3,16 @@
   "description": "NoFlo components for CAD",
   "version": "0.0.1",
   "author": "Jon Nordby <jononor@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "noflo"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jonnor/noflo-cad.git"
+    "url": "git://github.com/noflo/noflo-cad.git"
   },
   "dependencies": {
-    "noflo": "~0.7.9",
+    "noflo": "0.x >= 0.5",
     "openJSCADorg": "~0.0.1"
   },
   "devDependencies": {
