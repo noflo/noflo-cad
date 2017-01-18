@@ -3,25 +3,30 @@
   "description": "NoFlo components for CAD",
   "version": "0.0.1",
   "author": "Jon Nordby <jononor@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "noflo"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jonnor/noflo-cad.git"
+    "url": "git://github.com/noflo/noflo-cad.git"
   },
   "dependencies": {
-    "noflo": "~0.4.4",
+    "noflo": "0.x >= 0.5",
     "openJSCADorg": "~0.0.1"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-coffee": "~0.6.6",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.12.2",
+    "fbp-loader": "^0.1.1",
+    "grunt": "~1.0.1",
     "grunt-coffeelint": "~0.0.6",
-    "grunt-component-build": "~0.2.7",
-    "grunt-contrib-uglify": "~0.2.0",
-    "grunt-contrib-watch": "~0.3.1",
-    "grunt-combine": "~0.8.3",
-    "grunt-component": "~0.1.2",
-    "component-json": "~0.1.4",
-    "noflo-core": "~0.1.2"
+    "grunt-contrib-coffee": "~1.0.0",
+    "grunt-contrib-uglify": "~2.0.0",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-noflo-browser": "^1.1.4",
+    "json-loader": "^0.5.4",
+    "noflo-core": "~0.2.3"
   },
   "noflo": {
     "icon": "comments",
@@ -39,5 +44,8 @@
       "ToSTL": "components/ToSTL.coffee",
       "ToOutlinePaths": "components/ToOutlinePaths.coffee"
     }
+  },
+  "scripts": {
+    "test": "grunt test"
   }
 }

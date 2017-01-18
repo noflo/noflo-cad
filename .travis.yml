@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '4.6'
+before_script:
+- npm install -g grunt-cli
+deploy:
+  provider: npm
+  email: henri.bergius@iki.fi
+  api_key:
+    secure: F3Ge2V1aKSTU+ZhIF5aAvRzFn0Q40YDqr3YdFG0NxUs9C+xUvLVLlbGBarmY3brnyinLiOyJZtmPQDG4DHZScKv/Cairo7qmUrRIu48ml9KJVdvy/cU/nbGLO7ZMAV6pEW2CFtVacf6MQ4ArBI4hXV4AtsRm6NwUcHXwQxgoCDQ=
+  on:
+    tags: true
+    repo: noflo/noflo-cad
